@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FA"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_Id"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="ID : "
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Input_id"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@id/text_Id"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@id/text_Id"
+                android:imeOptions="actionNext"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/text_Pw"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="Password : "
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Input_pw"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/Input_id"
+                android:layout_alignStart="@+id/Input_id"
+                android:layout_alignTop="@+id/text_Pw"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:nextFocusDown="@+id/Input_id"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/text_Email"
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="Email : "
+                android:textColor="@color/colorAccent"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/Input_email"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/Input_pw"
+                android:layout_alignTop="@+id/text_Email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:nextFocusDown="@+id/Input_pw"
+                android:singleLine="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/signUp_Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인" />
+
+        <Button
+            android:id="@+id/signUp_Cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "470504554134",
+    "project_id": "prodongnebaseball"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470504554134:android:4e6d92c32d35d540",
+        "android_client_info": {
+          "package_name": "com.example.jspark.prodongnebaseball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470504554134-rbga395787ibi2g7t8hbga0vlsnh227d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jspark.prodongnebaseball",
+            "certificate_hash": "a182c9b4f5b1c55abf2d243d04cafd3af2f683ce"
+          }
+        },
+        {
+          "client_id": "470504554134-e7uvc59p1746qq8bsth79i7rtbjq9opl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpAhJx08IG9frh6mBvSgHY9_yh7nZeVvw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
